@@ -1,0 +1,12 @@
+.body {
+    box-sizing: border-box;
+    
+}
+
+.navbar, 
+.navbar-left,
+img {
+    width: 100px;
+    
+}
+
