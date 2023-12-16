@@ -1,14 +1,16 @@
 .body {
-    box-sizing: border-box;
+  box-sizing: border-box;
     
 }
 
 ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 16px;
-    gap: 16px;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 16px;
+  gap: 16px;
+  align-items: center;
+  font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 
 .left-links a,  
@@ -18,13 +20,12 @@ ul {
 }
 
 .header {
-    display: flex;
-   /* make the list to be horizontal */
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+
 }
 
-.header, 
 img {
     width: 150px;
-    
+    height: auto;
 }
