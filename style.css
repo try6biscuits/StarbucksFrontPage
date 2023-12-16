@@ -79,6 +79,7 @@ button {
   margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
+  gap: 56px;
 }
 
 
@@ -90,11 +91,11 @@ button {
 }
 
 .game-section button {
-  background-color: #3882F6;
-  border: none;
+  background-color: #f0d0cb;
   padding: 10px 20px;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 20px;
+  border: 1px solid black;
 }
 
 .game-section p {
@@ -103,5 +104,7 @@ button {
 }
 .bird-img-container img[src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-87728.png"]
 {
-  min-width: 500px;
+  min-width: 600px;
 }
+
+
