@@ -29,3 +29,17 @@ img {
     width: 150px;
     height: auto;
 }
+
+.right-links
+button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.button-container
+.signin-button {
+  background-color: white;
+  border: 2px solid black;
+}
