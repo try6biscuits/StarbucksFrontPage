@@ -62,5 +62,10 @@ button {
 /* The card section now */
 
 .game-section {
-  background-color:#f0d0cb ;
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  padding: 100px;
+  justify-content: space-around;
+  align-items: center;
 }
