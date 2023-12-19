@@ -112,37 +112,3 @@ button {
 
 /* christmas deal section */
 
-.holiday-gifts-section {
-  display: flex;
-  background-color:#dc0032;
-  max-width: 50%; 
-  padding: 100px 200px;
-  align-items: center;
-  border-radius: 20px; 
-  max-width: 50%; 
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-
-.red-coffee-img-container img[src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-87889.jpg"]
-{
-  min-width: 600px;
-  /* since the img is to big for the container, it will expand the container fo the img to fit */
-}
-
-.holiday-gifts-section,
-.second-heading,
-.second-paragraph{
-  color: white;
-}
-
-.holiday-gifts-section button {
-  background-color: #dc0032;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 20px;
-  border: 1px solid white;
-  color: white;
-}
