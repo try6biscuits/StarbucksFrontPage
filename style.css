@@ -110,5 +110,56 @@ button {
   min-width: 600px;
 }
 
-/* christmas deal section */
+
+.carmel-brulee-latte-section {
+  background-color:#006241;
+  max-width: 75%; 
+  /* padding-bottom: 1px; */
+  /* if I set the padding for the bottom, the background will expand as much padding as I set, with the img growing */
+  margin: auto;
+  margin-bottom: 90px;
+}
+.carmel-brulee-latte-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hot-espresso-img-container img[src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-87858.jpg"] {
+  /* min-width: 635px; */
+  min-width: 650px;
+}
+
+.carmel-brulee-latte-container  {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.carmel-brulee-latte-container .title {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  color: white;
+}
+
+.carmel-brulee-latte-container .paragraph p {
+  font-size: 24px;
+  color: white;
+  max-width: 600px
+} 
+
+.right-product {
+  width: calc(50% - 10px); /* Adjust width as needed */
+}
+
+.left-product {
+  /* flex-shrink: 0; 
+  width: 50%;
+  overflow: hidden; */
+  background-size: contain; /* Or 'cover' depending on your need */
+  background-repeat: no-repeat;
+}
 
