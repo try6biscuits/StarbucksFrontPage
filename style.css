@@ -173,3 +173,46 @@ button {
 }
 
 /* The color purple section */
+.color-purple-section {
+  background-color: #ad96dc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 72%; 
+  margin: auto;
+  margin-bottom: 90px;
+  border-radius: 20px;
+}
+
+.color-purple-img img[src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-87978.jpg"] {
+  min-width: 700px;
+  border-radius: 20px;
+}
+
+
+.left-product .title-section {
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+}
+
+.left-product  .paragraph-section {
+  font-size: 20px;
+  padding: 16px;
+  text-align: center;
+}
+
+.color-purple-section .button-section {
+  display: flex;
+  justify-content: center;
+}
+
+.color-purple-section button {
+  background-color: #ad96dc;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+}
