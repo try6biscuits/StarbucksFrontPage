@@ -100,6 +100,10 @@ button {
   border: 1px solid black;
 }
 
+.game-section .game-container button:hover {
+  background-color: pink;
+}
+
 .game-section p {
   inline-size: 425px;
   overflow-wrap: break-word;
@@ -167,3 +171,5 @@ button {
 .carmel-brulee-latte-container .button-container button:hover {
   background-color: green; /* change to your desired color */
 }
+
+/* The color purple section */
