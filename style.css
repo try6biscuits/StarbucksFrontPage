@@ -103,6 +103,7 @@ button {
 .game-section p {
   inline-size: 425px;
   overflow-wrap: break-word;
+  font-size: 26px;
 }
 .bird-img-container img[src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-87728.png"]
 {
@@ -112,27 +113,24 @@ button {
 
 .carmel-brulee-latte-section {
   background-color:#006241;
-  max-width: 75%; 
+  max-width: 72%; 
   /* padding-bottom: 1px; */
   /* if I set the padding for the bottom, the background will expand as much padding as I set, with the img growing */
   margin: auto;
   margin-bottom: 90px;
+  border-radius: 20px;
 }
 .carmel-brulee-latte-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.hot-espresso-img-container img[src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-87858.jpg"] {
-  /* min-width: 635px; */
-  min-width: 850px;
-}
-
-.carmel-brulee-latte-container  {
   display: flex;
   justify-content:center;
   align-items: center;
   text-align: center;
+}
+
+.hot-espresso-img-container img[src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-87858.jpg"] {
+  /* min-width: 635px; */
+  min-width: 815px;
+  border-radius: 20px;
 }
 
 
@@ -164,4 +162,8 @@ button {
 .button-container {
   display: flex;
   justify-content: center;
+}
+
+.carmel-brulee-latte-container .button-container button:hover {
+  background-color: green; /* change to your desired color */
 }
